@@ -1,10 +1,10 @@
 [package]
-name = "mozsvc-common"
+name = "mozsvc-common-wvp"
 version = "0.1.0"
-authors = ["Philip Jenvey <pjenvey@underboss.org>"]
+authors = ["wavepack3t <wavepack3t@stackit>"]
 description = "Common utilities for Mozilla server side apps"
-repository = "https://github.com/mozilla-services/common-rs/"
-homepage = "https://github.com/mozilla-services/common-rs/"
+repository = "https://github.com/wavepack3t/common-rs/"
+homepage = "https://github.com/wavepack3t/common-rs/"
 license = "MPL-2.0"
 
 [badges]
@@ -13,4 +13,4 @@ travis-ci = { repository = "mozilla-services/common-rs" }
 [dependencies]
 lazy_static = "1.0"
 hostname = "0.1"
-reqwest = "0.8"
+reqwest = "0.9.4"
